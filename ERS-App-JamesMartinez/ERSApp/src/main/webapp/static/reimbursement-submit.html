@@ -1,0 +1,64 @@
+<html>
+
+<head>
+	<title>Employee Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand">Employee Menu</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="reimbursement-submit.html">Submit New Reimbursement Request </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="employee-all-requests.html">View My Reimbursements Requests </a>
+			</li>
+            <li class="nav-item">
+                <a class="nav-link" href="user-information.html">View and Update Account Information </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Logout</a>
+            </li>
+		  </ul>
+		</div>
+	  </nav>
+	  <div class="container">
+		<h1>Reimbursement Submission</h1>
+	  </div>
+	  <div>
+		  <form method ="POST" action = "../employee-reimbursement">
+			  <br>
+			  <h5>Amount:</h5><input type='number' step='0.01' name='amount' class="form-control-lg"/>
+			  <br><br>
+			  <h5>Description:</h5><input type='text' name = 'description' class="form-control-lg"/>
+			  <br><br>
+			  <h5>Reimbursement Type:<h5>
+			  <input type='radio' id = 'lodging' name='reimbtype' value= 'lodging' />
+			  <label for= 'lodging'>Lodging</label>
+			  <br>
+			  <input type='radio' id = 'travel' name='reimbtype' value= 'travel' />
+			  <label for= 'travel'>Travel</label>
+			  <br>
+			  <input type='radio' id = 'food' name='reimbtype' value= 'food' />
+			  <label for= 'food'>Food</label>
+			  <br>
+			  <input type='radio' id = 'other' name='reimbtype' value= 'other' />
+			  <label for= 'other'>Other</label>
+			  <br>
+			  <br><input type='submit' value ='Submit' class = 'btn btn-success  text-uppercase font-weight-bold mb-2 btn-lg'/>
+		  </form>
+	  </div>
+	  
+</body>
+
+</html>
