@@ -29,7 +29,7 @@ To-do list:
 
 ## Getting Started
    
-git clone 
+git clone https://github.com/JamesMMartinez/Java-Full-Stack-ERS-App.git
 
 Upon cloning the repository the application should be ready to run on your local host, as long as the correct versions of the technologies listed in "technologies used"  
 are the same. Once the Apache Tomcat server is started everything will be ready to go.
@@ -48,4 +48,4 @@ After successful login the top navigation bar is used to navigate between views 
 
 ## License
 
-This project uses the following license: GNU GENERAL PUBLIC LICENSE (<LICENSE>).
+This project uses the following license: [GNU GENERAL PUBLIC LICENSE](LICENSE).
