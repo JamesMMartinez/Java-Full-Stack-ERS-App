@@ -31,19 +31,17 @@ To-do list:
    
 git clone https://github.com/JamesMMartinez/Java-Full-Stack-ERS-App.git
 
-Upon cloning the repository the application should be ready to run on your local host, as long as the correct versions of the technologies listed in "technologies used" are the same. Once the Apache Tomcat server is started everything will be ready to go.
-
-The starting view for the application should be the login page and with the link similar to http://localhost:8081/ERSApp/static/login.html dependent on the local host port
+To get started use the provided SQL Script to populate your RDS with the appropriate tables and information. 
 
 ## Usage
 
-To get started the following login information can be used to access the apps features:
+Upon cloning the repository and populating your database with the correct infromation, the application should be ready to run on your local host. Just be sure the correct versions of the technologies listed in "technologies used" are used to prevent dicrepencies and bugs. Once the Apache Tomcat server is started everything will be ready to go.
 
-**Employee:**  *Username:* thepirateking1 *Password:* Rubberman1
+The starting view for the application should be the login page and with the link similar to http://localhost:8081/ERSApp/static/login.html dependent on the local host port and look like the following:
 
-**Manager:** *Username:* namib123       *Password:* Millionb3rri3s
 
-After successful login the top navigation bar is used to navigate between views and features.
+
+Use the information from the "Users" Table to sign in as an Employee(*role_id = 1*) or as a Manager(*role_id = 2*). After successful login the top navigation bar is used to navigate between views and features.
 
 ## License
 
