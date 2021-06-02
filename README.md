@@ -39,7 +39,7 @@ Upon cloning the repository and populating your database with the correct infrom
 
 The starting view for the application should be the login page and with the link similar to http://localhost:8081/ERSApp/static/login.html dependent on the local host port and look like the following:
 
-
+![ERS Login](https://user-images.githubusercontent.com/79883262/120537272-18594d00-c3b3-11eb-9bcd-aabb842bcf86.JPG)
 
 Use the information from the "Users" Table to sign in as an Employee(*role_id = 1*) or as a Manager(*role_id = 2*). After successful login the top navigation bar is used to navigate between views and features.
 
