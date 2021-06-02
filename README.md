@@ -11,6 +11,7 @@ Expense Reimbursement System created using Java, JavaScript, HTML, CSS, JDBC, AW
 - Apache Tomcat - version 9.0.45
 - Log4j - 1.2.17
 - Junit - 5.4.2
+- AWS Relational Database Service
 
 ## Features
 
