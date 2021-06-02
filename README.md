@@ -5,12 +5,12 @@ Expense Reimbursement System created using Java, JavaScript, HTML, CSS, JDBC, AW
 
 ## Technologies Used
 
-Java - version 1.8
-PostgreSQL - version 42.2.5
-Apache Maven - version 3.6.3
-Apache Tomcat - version 9.0.45
-Log4j - 1.2.17
-Junit - 5.4.2
+- Java - version 1.8
+- PostgreSQL - version 42.2.5
+- Apache Maven - version 3.6.3
+- Apache Tomcat - version 9.0.45
+- Log4j - 1.2.17
+- Junit - 5.4.2
 
 ## Features
 
@@ -31,8 +31,7 @@ To-do list:
    
 git clone https://github.com/JamesMMartinez/Java-Full-Stack-ERS-App.git
 
-Upon cloning the repository the application should be ready to run on your local host, as long as the correct versions of the technologies listed in "technologies used"  
-are the same. Once the Apache Tomcat server is started everything will be ready to go.
+Upon cloning the repository the application should be ready to run on your local host, as long as the correct versions of the technologies listed in "technologies used" are the same. Once the Apache Tomcat server is started everything will be ready to go.
 
 The starting view for the application should be the login page and with the link similar to http://localhost:8081/ERSApp/static/login.html dependent on the local host port
 
